@@ -1,0 +1,2338 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down_Down.bundle/DownView (macOS).bundle" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Resources/DownView (macOS).bundle"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down_Down.bundle/DownView (macOS).bundle"
+        }
+      ]
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down_Down.bundle/DownView.bundle" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Resources/DownView.bundle"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down_Down.bundle/DownView.bundle"
+        }
+      ]
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown_SwiftDown.bundle/Themes" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Resources/Themes"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown_SwiftDown.bundle/Themes"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Down-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/sources",
+      "importPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BaseNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BlockQuote.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ChildSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Code.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CodeBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomInline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Document.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Emphasis.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Heading.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlInline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Item.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/LineBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Link.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/List.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Paragraph.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/SoftBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Strong.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Text.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ThematicBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ColorCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/FontCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ParagraphStyleCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/BlockBackgroundColorAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/QuoteStripeAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/ThematicBreakAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGPoint+Translate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGRect+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSAttributedString+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSMutableAttributedString+Attributes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/UIFont+Traits.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/ListItemParagraphStyler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownDebugLayoutManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownLayoutManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/CodeBlockOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ListItemOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/QuoteStripeOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ThematicBreakOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStyler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStylerConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/Styler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownDebugTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/AttributedStringVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/DebugVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/ListItemPrefixGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/Visitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Down.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownErrors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/NSAttributedString+HTML.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/String+ToHTML.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownASTRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownAttributedStringRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownCommonMarkRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownGroffRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownHTMLRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownLaTeXRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownXMLRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/BundleHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/DownView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/swift-version--6C2F2091E3F2D5BA.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<Down-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/blocks.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/buffer.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/cmark.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/cmark_ctype.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/commonmark.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_href_e.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_html_e.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_html_u.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/html.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/inlines.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/iterator.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/latex.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/man.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/node.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/references.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/render.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/scanners.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/utf8.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/xml.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Down",
+      "moduleOutputPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/Down.swiftmodule",
+      "objects" : [
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BaseNode.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockQuote.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ChildSequence.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Code.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlock.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomBlock.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomInline.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Document.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Emphasis.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Heading.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlBlock.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlInline.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Image.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Item.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/LineBreak.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Link.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/List.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Node.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Paragraph.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/SoftBreak.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Strong.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Text.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreak.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ColorCollection.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/FontCollection.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ParagraphStyleCollection.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockBackgroundColorAttribute.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeAttribute.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakAttribute.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGPoint+Translate.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGRect+Helpers.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+Helpers.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSMutableAttributedString+Attributes.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/UIFont+Traits.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemParagraphStyler.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugLayoutManager.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLayoutManager.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlockOptions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemOptions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeOptions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakOptions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStyler.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStylerConfiguration.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Styler.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugTextView.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownTextView.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/AttributedStringVisitor.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DebugVisitor.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemPrefixGenerator.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Visitor.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownErrors.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownOptions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+HTML.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/String+ToHTML.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownASTRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownAttributedStringRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownCommonMarkRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownGroffRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownHTMLRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLaTeXRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownXMLRenderable.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BundleHelper.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownView.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+        "-module-cache-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down-Swift.h",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BaseNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockQuote.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ChildSequence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Code.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomInline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Document.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Emphasis.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Heading.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlInline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Image.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Item.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/LineBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Link.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/List.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Paragraph.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/SoftBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Strong.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Text.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ColorCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/FontCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ParagraphStyleCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockBackgroundColorAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGPoint+Translate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGRect+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSMutableAttributedString+Attributes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/UIFont+Traits.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemParagraphStyler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugLayoutManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLayoutManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlockOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStyler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStylerConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Styler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/AttributedStringVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DebugVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemPrefixGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Visitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownErrors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+HTML.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/String+ToHTML.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownASTRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownAttributedStringRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownCommonMarkRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownGroffRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownHTMLRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLaTeXRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownXMLRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BundleHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/Down.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BaseNode.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BlockQuote.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ChildSequence.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Code.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CodeBlock.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomBlock.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomInline.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Document.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Emphasis.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Heading.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlBlock.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlInline.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Image.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Item.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/LineBreak.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Link.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/List.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Node.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Paragraph.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/SoftBreak.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Strong.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Text.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ThematicBreak.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ColorCollection.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/FontCollection.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ParagraphStyleCollection.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/BlockBackgroundColorAttribute.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/QuoteStripeAttribute.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/ThematicBreakAttribute.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGPoint+Translate.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGRect+Helpers.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSAttributedString+Helpers.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSMutableAttributedString+Attributes.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/UIFont+Traits.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/ListItemParagraphStyler.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownDebugLayoutManager.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownLayoutManager.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/CodeBlockOptions.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ListItemOptions.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/QuoteStripeOptions.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ThematicBreakOptions.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStyler.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStylerConfiguration.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/Styler.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownDebugTextView.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownTextView.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/AttributedStringVisitor.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/DebugVisitor.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/ListItemPrefixGenerator.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/Visitor.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Down.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownErrors.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownOptions.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/NSAttributedString+HTML.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/String+ToHTML.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownASTRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownAttributedStringRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownCommonMarkRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownGroffRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownHTMLRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownLaTeXRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownXMLRenderable.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/BundleHelper.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/DownView.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftDown-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/sources",
+      "importPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownKeyboardToolbar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Storage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Style.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDown.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownHighlighter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/ThemeConfigProperty.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/UniversalTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/swift-version--6C2F2091E3F2D5BA.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<SwiftDown-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/Down.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftDown",
+      "moduleOutputPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/SwiftDown.swiftmodule",
+      "objects" : [
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+        "-module-cache-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown-Swift.h",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/SwiftDown.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Extensions.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownEngine.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownKeyboardToolbar.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownNode.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Storage.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Style.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDown.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownEditor.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownHighlighter.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Theme.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/ThemeConfigProperty.swift",
+        "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/UniversalTypes.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftDownDemo-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/sources",
+      "importPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/SwiftDownDemoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/swift-version--6C2F2091E3F2D5BA.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/SwiftDown.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SwiftDownDemo",
+      "moduleOutputPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/SwiftDownDemo.swiftmodule",
+      "objects" : [
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.swift.o",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+        "-module-cache-path",
+        "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SwiftDownDemo_main",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules/SwiftDownDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/ContentView.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/SwiftDownDemoApp.swift",
+        "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/main.swift"
+      ],
+      "tempsPath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Down" : [
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Down",
+      "-incremental",
+      "-c",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BaseNode.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BlockQuote.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ChildSequence.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Code.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CodeBlock.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomBlock.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomInline.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Document.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Emphasis.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Heading.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlBlock.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlInline.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Image.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Item.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/LineBreak.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Link.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/List.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Node.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Paragraph.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/SoftBreak.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Strong.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Text.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ThematicBreak.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ColorCollection.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/FontCollection.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ParagraphStyleCollection.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/BlockBackgroundColorAttribute.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/QuoteStripeAttribute.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/ThematicBreakAttribute.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGPoint+Translate.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGRect+Helpers.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSAttributedString+Helpers.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSMutableAttributedString+Attributes.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/UIFont+Traits.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/ListItemParagraphStyler.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownDebugLayoutManager.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownLayoutManager.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/CodeBlockOptions.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ListItemOptions.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/QuoteStripeOptions.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ThematicBreakOptions.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStyler.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStylerConfiguration.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/Styler.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownDebugTextView.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownTextView.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/AttributedStringVisitor.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/DebugVisitor.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/ListItemPrefixGenerator.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/Visitor.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Down.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownErrors.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownOptions.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/NSAttributedString+HTML.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/String+ToHTML.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownASTRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownAttributedStringRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownCommonMarkRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownGroffRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownHTMLRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownLaTeXRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownXMLRenderable.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/BundleHelper.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/DownView.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+      "-module-cache-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down-Swift.h",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftDown" : [
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftDown",
+      "-incremental",
+      "-c",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Extensions.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownEngine.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownKeyboardToolbar.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownNode.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Storage.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Style.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDown.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownEditor.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownHighlighter.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Theme.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/ThemeConfigProperty.swift",
+      "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/UniversalTypes.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+      "-module-cache-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown-Swift.h",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftDownDemo" : [
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftDownDemo",
+      "-incremental",
+      "-c",
+      "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/ContentView.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/SwiftDownDemoApp.swift",
+      "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/main.swift",
+      "-I",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark",
+      "-module-cache-path",
+      "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SwiftDownDemo_main",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Down" : [
+      "libcmark"
+    ],
+    "SwiftDown" : [
+      "Down",
+      "libcmark"
+    ],
+    "SwiftDownDemo" : [
+      "SwiftDown",
+      "Down",
+      "libcmark"
+    ],
+    "libcmark" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BaseNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/BlockQuote.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ChildSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Code.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CodeBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/CustomInline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Document.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Emphasis.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Heading.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlBlock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/HtmlInline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Item.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/LineBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Link.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/List.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Paragraph.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/SoftBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Strong.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/Text.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Nodes/ThematicBreak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ColorCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/FontCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Attribute Collections/ParagraphStyleCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/BlockBackgroundColorAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/QuoteStripeAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Custom Attributes/ThematicBreakAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGPoint+Translate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/CGRect+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSAttributedString+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/NSMutableAttributedString+Attributes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/Extensions/UIFont+Traits.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Helpers/ListItemParagraphStyler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownDebugLayoutManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Layout Managers/DownLayoutManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/CodeBlockOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ListItemOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/QuoteStripeOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Options/ThematicBreakOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStyler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/DownStylerConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Stylers/Styler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownDebugTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Styling/Text Views/DownTextView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/AttributedStringVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/DebugVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/ListItemPrefixGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/AST/Visitors/Visitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Down.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownErrors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Enums & Options/DownOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/NSAttributedString+HTML.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Extensions/String+ToHTML.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownASTRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownAttributedStringRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownCommonMarkRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownGroffRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownHTMLRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownLaTeXRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Renderers/DownXMLRenderable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/BundleHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/Down/Views/DownView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/sources"
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownKeyboardToolbar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Storage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Style.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDown.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownHighlighter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/ThemeConfigProperty.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/UniversalTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/sources"
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo-entitlement.plist"
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/SwiftDownDemoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/sources"
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/AttributedStringVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BaseNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockBackgroundColorAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BlockQuote.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/BundleHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGPoint+Translate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CGRect+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ChildSequence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Code.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CodeBlockOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ColorCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/CustomInline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DebugVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Document.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownASTRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownAttributedStringRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownCommonMarkRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugLayoutManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownDebugTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownErrors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownGroffRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownHTMLRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLaTeXRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownLayoutManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStyler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownStylerConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownTextView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/DownXMLRenderable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Emphasis.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/FontCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Heading.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlBlock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/HtmlInline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Image.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Item.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/LineBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Link.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/List.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemParagraphStyler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ListItemPrefixGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+HTML.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSAttributedString+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/NSMutableAttributedString+Attributes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Paragraph.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ParagraphStyleCollection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/QuoteStripeOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/SoftBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/String+ToHTML.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Strong.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Styler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Text.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/ThematicBreakOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/UIFont+Traits.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Visitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/blocks.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/buffer.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/cmark.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/cmark_ctype.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/commonmark.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_href_e.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_html_e.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/houdini_html_u.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/html.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/inlines.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/iterator.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/latex.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/man.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/node.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/references.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/render.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/scanners.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/utf8.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/libcmark.build/xml.c.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.product/Objects.LinkFileList"
+    },
+    "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/swift-version--6C2F2091E3F2D5BA.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode 16.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/swift-version--6C2F2091E3F2D5BA.txt"
+    }
+  }
+}

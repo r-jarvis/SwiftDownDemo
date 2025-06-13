@@ -1,0 +1,4 @@
+module libcmark {
+    umbrella "/Users/ryan/Personal/SwiftDownDemo/.build/checkouts/Down/Sources/cmark"
+    export *
+}

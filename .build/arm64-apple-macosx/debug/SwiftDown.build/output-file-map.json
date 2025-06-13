@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/master.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Extensions.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Extensions.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownEngine.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownEngine.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownKeyboardToolbar.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownKeyboardToolbar.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/MarkdownNode.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/MarkdownNode.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Storage.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Storage.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Style.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Style.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDown.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownEditor.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownEditor.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/SwiftDownHighlighter.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDownHighlighter.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/Theme.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/Theme.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/ThemeConfigProperty.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/ThemeConfigProperty.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDown/Sources/SwiftDown/UniversalTypes.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/UniversalTypes.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/resource_bundle_accessor.swiftdeps"
+  }
+}

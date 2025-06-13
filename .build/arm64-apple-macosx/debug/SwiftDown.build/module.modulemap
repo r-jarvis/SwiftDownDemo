@@ -1,0 +1,4 @@
+module SwiftDown {
+    header "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDown.build/SwiftDown-Swift.h"
+    requires objc
+}

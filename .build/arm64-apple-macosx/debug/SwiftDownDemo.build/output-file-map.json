@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/master.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/ContentView.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/ContentView.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/SwiftDownDemoApp.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/SwiftDownDemoApp.swiftdeps"
+  },
+  "/Users/ryan/Personal/SwiftDownDemo/SwiftDownDemo/main.swift": {
+    "dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.d",
+    "object": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.swift.o",
+    "swiftmodule": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/SwiftDownDemo.build/main.swiftdeps"
+  }
+}

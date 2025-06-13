@@ -1,0 +1,4 @@
+module Down {
+    header "/Users/ryan/Personal/SwiftDownDemo/.build/arm64-apple-macosx/debug/Down.build/Down-Swift.h"
+    requires objc
+}
